@@ -1,0 +1,179 @@
+
+.discover {
+    font-weight: 550;
+}
+
+
+.signup_main {
+    background: radial-gradient(circle at top center, #363820 0%, #101012 50%, #0D0F11 100%);
+}
+
+.supericon {
+    color: gold;
+}
+
+.person,
+.correct,
+.secure {
+    color: #EBF062;
+    font-size: 25px;
+}
+
+.intive_head,
+.correct_head,
+.secure_head {
+    font-weight: 550;
+}
+
+.intive_des,
+.correct_des,
+.secure_des {
+    color: grey;
+}
+
+.left {
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 7%;
+    padding-top: 5%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.containers1,
+.containers2,
+.containers3,
+.containers4 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.containers5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20%;
+}
+
+.right {
+    padding: 5% 7% 7% 2%;
+
+}
+
+.sub-right,.sub-right2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.containerr2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.email,
+.github,
+.facebook {
+    width: 30%;
+    border-radius: 7px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.containerr3 {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.first_name,
+.last_name {
+    text-align: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.f_name,
+.l_name,
+.u_name,
+.e_name,
+.p_name {
+    margin-bottom: 7px;
+}
+
+.first_name_input,
+.last_name_input {
+    top: 20px;
+}
+
+.first_name_input,
+.last_name_input,
+.user_name_input,
+.email_input,
+.password_input {
+    border: none;
+    padding-left: 2%;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 35px;
+    border-radius: 5px;
+}
+
+.first_name_input:focus,
+.last_name_input:focus,
+.user_name_input:focus,
+.email_input:focus,
+.password_input:focus {
+    outline: 1.5px solid yellow;
+}
+
+.containerr4,
+.containerr5,
+.containerr6,
+.containerr7 {
+    text-align: start;
+    width: 100%;
+}
+
+.user_name,
+.email2,
+.password {
+    width: 100%;
+}
+
+.user_name_input,
+.email_input,
+.password_input {
+    width: 100%;
+}
+
+.signin,.login {
+    height: 40px;
+    border: none;
+    color: black;
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 1px grey);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    background: linear-gradient(0deg, yellow, rgb(234, 234, 92), rgb(240, 240, 112));
+}
+
+.signin:hover,.login:hover {
+    transform: scale3d(1.01, 1.01, 1.01);
+}
+.login{
+    /* background-color: green; */
+    width: 100%;
+}
